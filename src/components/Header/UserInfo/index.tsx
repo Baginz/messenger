@@ -1,11 +1,10 @@
-import React from "react";
-import classes from "./userinfo.module.css";
+import "./styles.css";
 
 const UserInfo = () => (
-    <div className={classes.userinfo}>
-        <div className={classes.name}>Baginz</div>
-        <div className={classes.status}>
-            <span className={classes.circle} />В сети
+    <div className="user-info">
+        <div className="name">Baginz</div>
+        <div className="status">
+            <span className="circle" />В сети
         </div>
     </div>
 );

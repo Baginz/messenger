@@ -1,11 +1,11 @@
 import React from "react";
 import UserInfo from "./UserInfo";
 
-import classes from "./header.module.css";
+import "./styles.css";
 
 const Header = () => {
     return (
-        <div className={classes.header}>
+        <div className="header">
             <UserInfo />
         </div>
     );

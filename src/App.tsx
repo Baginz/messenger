@@ -5,15 +5,14 @@ import "./styles/App.css";
 import { IServerMessage } from "./types";
 
 const App = () => {
-  const [message, addMessage] = React.useState<IServerMessage | null>(null);
+    const [message, addMessage] = React.useState<IServerMessage | null>(null);
 
-
-  return (
-    <div className="container">
-      <Header />
-      <Dialog newMessage={message}/>
-    </div>
-  );
+    return (
+        <div className="container">
+            <Header />
+            <Dialog newMessage={message} />
+        </div>
+    );
 };
 
 export default App;
