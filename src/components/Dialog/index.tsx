@@ -1,5 +1,4 @@
 import { useReducer, useEffect, useRef } from "react";
-import PropTypes from "prop-types";
 
 import Item from "./Item";
 import Title from "./Title";
@@ -77,12 +76,6 @@ const Dialog = ({ newMessage }: IProps) => {
             </div>
         </div>
     );
-};
-
-Dialog.propTypes = {
-    newMessage: PropTypes.shape({
-        id: PropTypes.number,
-    }),
 };
 
 export default Dialog;

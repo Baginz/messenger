@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
 import App from "./App";
+import dayjs from "dayjs";
 import reportWebVitals from "./reportWebVitals";
+
+dayjs.locale("ru");
 
 ReactDOM.render(
     <React.StrictMode>
